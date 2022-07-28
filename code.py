@@ -1,6 +1,6 @@
 import cv2
 image = cv2.imread('assets/PassPhoto.jpg')
-image=cv2.resize(image,(405,500))
+#image=cv2.resize(image,(x,y))
 cv2.imshow('Original', image)
 cv2.waitKey(0)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
