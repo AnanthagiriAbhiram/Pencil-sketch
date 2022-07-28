@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread('Photo.jpg')
+image = cv2.imread('Photo.jpeg')
 #image=cv2.resize(image,(x,y))
 cv2.imshow('Original', image)
 cv2.waitKey(0)
